@@ -1,6 +1,7 @@
 export const formatCurrency = (amount: number) => {
-  return new Intl.NumberFormat("en-IE", {
+  return new Intl.NumberFormat("da-DK", {
     style: "currency",
-    currency: "EUR",
+    currency: "DKK",
+    currencyDisplay: "code",
   }).format(amount);
 };

@@ -179,7 +179,7 @@ export default function Transfer() {
                   <label htmlFor="" className="text-[#2e2e2e] text-sm">
                     Amount
                   </label>
-                  <button className="absolute text-[#888888] w-[50px] min-h-[50px] border-r left-0 text-lg bottom-[2px]">€</button>
+                  <button className="absolute text-[#888888] w-[50px] min-h-[50px] border-r left-0 text-lg bottom-[2px]">DKK</button>
                   <input
                     type="number"
                     name="amount"
